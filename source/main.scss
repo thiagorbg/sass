@@ -1,7 +1,8 @@
+$corBrnca: #fff;
+
+
 @use 'reset';
 @use 'responsividade';
-
-
 
 
 
@@ -33,7 +34,7 @@ header {
     margin-left: 24px;
 
     a {
-        color: #fff;
+        color: $corBrnca;
         text-decoration: none;
         }
 
@@ -55,7 +56,7 @@ header {
     .product-button {
     display: block;
     background-color: #44bd32;
-    color: #fff;
+    color: $corBrnca;
     text-align: center;
     padding: 8px 0;
     border-radius: 8px;
